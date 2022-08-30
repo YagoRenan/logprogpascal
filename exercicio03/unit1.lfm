@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 248
+  Height = 279
+  Top = 127
+  Width = 435
+  Caption = 'Form1'
+  ClientHeight = 279
+  ClientWidth = 435
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 152
+    Height = 15
+    Top = 48
+    Width = 143
+    Caption = 'Calculo de Reajuste Salarial'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 15
+    Top = 96
+    Width = 74
+    Caption = 'Salario Antigo'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 64
+    Height = 23
+    Top = 128
+    Width = 72
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object BCalcular: TButton
+    Left = 80
+    Height = 35
+    Top = 216
+    Width = 66
+    Caption = 'Calcular'
+    OnClick = BCalcularClick
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 184
+    Height = 35
+    Top = 216
+    Width = 64
+    Caption = 'Limpar'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 304
+    Height = 35
+    Top = 216
+    Width = 64
+    Caption = 'Sair'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Memo1: TMemo
+    Left = 244
+    Height = 63
+    Top = 128
+    Width = 128
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 4
+  end
+  object Label3: TLabel
+    Left = 256
+    Height = 15
+    Top = 96
+    Width = 96
+    Caption = 'Salario Reajustado'
+    ParentColor = False
+  end
+end

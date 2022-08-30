@@ -1,0 +1,223 @@
+object Form1: TForm1
+  Left = -20
+  Height = 336
+  Top = 292
+  Width = 543
+  Caption = 'Form1'
+  ClientHeight = 336
+  ClientWidth = 543
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 184
+    Height = 15
+    Top = 32
+    Width = 139
+    Caption = 'Crescimento Populacional'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 82
+    Width = 110
+    Caption = 'População Cidade A:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 128
+    Width = 109
+    Caption = 'População Cidade B:'
+    ParentColor = False
+  end
+  object Epopia: TEdit
+    Left = 139
+    Height = 23
+    Top = 78
+    Width = 53
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object Epopib: TEdit
+    Left = 139
+    Height = 23
+    Top = 120
+    Width = 53
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0'
+  end
+  object Label4: TLabel
+    Left = 210
+    Height = 15
+    Top = 85
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 210
+    Height = 15
+    Top = 128
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 296
+    Height = 15
+    Top = 86
+    Width = 108
+    Caption = 'Taxa Crescimento A:'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 296
+    Height = 15
+    Top = 128
+    Width = 107
+    Caption = 'Taxa Crescimento B:'
+    ParentColor = False
+  end
+  object Etaxaa: TEdit
+    Left = 416
+    Height = 23
+    Top = 77
+    Width = 48
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0'
+  end
+  object Etaxab: TEdit
+    Left = 416
+    Height = 23
+    Top = 120
+    Width = 48
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '0'
+  end
+  object Label8: TLabel
+    Left = 472
+    Height = 15
+    Top = 82
+    Width = 10
+    Caption = '%'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 472
+    Height = 15
+    Top = 128
+    Width = 10
+    Caption = '%'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 56
+    Height = 15
+    Top = 182
+    Width = 111
+    Caption = 'Tempo Transcorrido:'
+    ParentColor = False
+  end
+  object Etempo: TEdit
+    Left = 176
+    Height = 23
+    Top = 174
+    Width = 53
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabOrder = 4
+    Text = '0'
+  end
+  object Label11: TLabel
+    Left = 248
+    Height = 15
+    Top = 182
+    Width = 27
+    Caption = 'Anos'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 64
+    Height = 15
+    Top = 223
+    Width = 98
+    Caption = 'População Final A:'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 64
+    Height = 15
+    Top = 264
+    Width = 97
+    Caption = 'População Final B:'
+    ParentColor = False
+  end
+  object Epopa: TEdit
+    Left = 168
+    Height = 23
+    Top = 219
+    Width = 82
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabOrder = 5
+    Text = '0'
+  end
+  object Epopb: TEdit
+    Left = 168
+    Height = 23
+    Top = 256
+    Width = 82
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabOrder = 6
+    Text = '0'
+  end
+  object Label14: TLabel
+    Left = 270
+    Height = 15
+    Top = 223
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 270
+    Height = 15
+    Top = 264
+    Width = 57
+    Caption = 'Habitantes'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 256
+    Height = 22
+    Top = 298
+    Width = 59
+    Caption = 'Calcular'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Left = 336
+    Height = 22
+    Top = 298
+    Width = 59
+    Caption = 'Limpar'
+    OnClick = Button2Click
+    TabOrder = 8
+  end
+  object Button3: TButton
+    Left = 408
+    Height = 22
+    Top = 298
+    Width = 59
+    Caption = 'Sair'
+    OnClick = Button3Click
+    TabOrder = 9
+  end
+end

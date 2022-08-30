@@ -1,0 +1,141 @@
+object Form1: TForm1
+  Left = 217
+  Height = 281
+  Top = 128
+  Width = 401
+  Caption = 'Form1'
+  ClientHeight = 281
+  ClientWidth = 401
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 64
+    Height = 15
+    Top = 24
+    Width = 293
+    Caption = 'Programa para Calcular Índice de Massa Corporal (IMC)'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 72
+    Width = 25
+    Caption = 'Peso'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 112
+    Width = 32
+    Caption = 'Altura'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 96
+    Height = 23
+    Top = 64
+    Width = 48
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object Edit2: TEdit
+    Left = 96
+    Height = 23
+    Top = 104
+    Width = 48
+    Alignment = taRightJustify
+    TabOrder = 1
+    Text = '0'
+  end
+  object Label4: TLabel
+    Left = 155
+    Height = 15
+    Top = 71
+    Width = 14
+    Caption = 'Kg'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 155
+    Height = 15
+    Top = 112
+    Width = 11
+    Caption = 'M'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 248
+    Height = 15
+    Top = 72
+    Width = 122
+    Caption = 'Resultado da Avaliação'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 248
+    Height = 78
+    Top = 104
+    Width = 122
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 56
+    Height = 19
+    Top = 234
+    Width = 57
+    Caption = 'Calcular'
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 160
+    Height = 19
+    Top = 234
+    Width = 57
+    Caption = 'Limpar'
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 272
+    Height = 19
+    Top = 234
+    Width = 57
+    Caption = 'Sair'
+    TabOrder = 5
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 48
+    Height = 73
+    Top = 151
+    Width = 96
+    AutoFill = True
+    Caption = 'Sexo'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 53
+    ClientWidth = 92
+    TabOrder = 6
+    object RadioButton1: TRadioButton
+      Left = 6
+      Height = 27
+      Top = 0
+      Width = 80
+      Caption = 'Feminino'
+      TabOrder = 0
+    end
+    object RadioButton2: TRadioButton
+      Left = 6
+      Height = 26
+      Top = 27
+      Width = 80
+      Caption = 'Masculino'
+      TabOrder = 1
+    end
+  end
+end

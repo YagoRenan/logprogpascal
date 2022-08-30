@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 256
+  Height = 316
+  Top = 145
+  Width = 462
+  Caption = '0'
+  ClientHeight = 316
+  ClientWidth = 462
+  LCLVersion = '2.0.12.0'
+  object BFparaC: TButton
+    Left = 97
+    Height = 35
+    Top = 96
+    Width = 97
+    Caption = 'F para C'
+    OnClick = BFparaCClick
+    TabOrder = 0
+  end
+  object BCparaF: TButton
+    Left = 97
+    Height = 35
+    Top = 168
+    Width = 97
+    Caption = 'C para F'
+    OnClick = BCparaFClick
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 128
+    Height = 15
+    Top = 47
+    Width = 224
+    Align = alCustom
+    Caption = 'Transformação de escalas de temperaturas'
+    ParentColor = False
+  end
+  object EgrausF: TEdit
+    Left = 294
+    Height = 23
+    Top = 170
+    Width = 80
+    Align = alCustom
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0'
+  end
+  object Label2: TLabel
+    Left = 384
+    Height = 15
+    Top = 96
+    Width = 8
+    Caption = 'C'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 384
+    Height = 15
+    Top = 178
+    Width = 6
+    Caption = 'F'
+    ParentColor = False
+  end
+  object EgrausC: TEdit
+    Left = 294
+    Height = 23
+    Top = 96
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '0'
+  end
+  object BSair: TButton
+    Left = 115
+    Height = 22
+    Top = 236
+    Width = 62
+    Caption = 'Sair'
+    OnClick = BSairClick
+    TabOrder = 4
+  end
+  object BLimpar: TButton
+    Left = 256
+    Height = 22
+    Top = 236
+    Width = 62
+    Caption = 'Limpar'
+    OnClick = BLimparClick
+    TabOrder = 5
+  end
+end

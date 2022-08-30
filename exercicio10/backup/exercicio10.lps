@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="exercicio10.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="exercicio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="57"/>
+        <CursorPos X="52" Y="75"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="exercicio.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="11" Column="33"/>
+      </Position2>
+      <Position3>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="85" Column="37" TopLine="56"/>
+      </Position3>
+      <Position4>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="50" Column="6" TopLine="35"/>
+      </Position4>
+      <Position5>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="63" Column="27" TopLine="63"/>
+      </Position5>
+      <Position6>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="62" Column="27" TopLine="62"/>
+      </Position6>
+      <Position7>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="61" Column="27" TopLine="61"/>
+      </Position7>
+      <Position8>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="60" Column="27" TopLine="60"/>
+      </Position8>
+      <Position9>
+        <Filename Value="exercicio.pas"/>
+        <Caret Line="59" Column="27" TopLine="59"/>
+      </Position9>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
